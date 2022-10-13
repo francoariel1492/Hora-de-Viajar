@@ -7,7 +7,8 @@
     "Hijos": 0,
     "Cupos": 1000,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Brasil",
@@ -17,7 +18,8 @@
     "Hijos": 0,
     "Cupos": 300,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Uruguay",
@@ -27,7 +29,8 @@
     "Hijos": 0,
     "Cupos": 200,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "España",
@@ -37,7 +40,8 @@
     "Hijos": 0,
     "Cupos": 200,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Italia",
@@ -47,7 +51,8 @@
     "Hijos": 0,
     "Cupos": "",
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Chile",
@@ -57,7 +62,8 @@
     "Hijos": 0,
     "Cupos": 940,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico"
+    "Requisitos": "Seguro medico",
+    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
 }
 
 ]

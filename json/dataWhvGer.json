@@ -8,7 +8,8 @@
         "Hijos": 0,
         "Cupos": "Ilimitados",
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Seguro medico"
+        "Requisitos": "Seguro medico",
+        "Descripcion": "Soñaste con el Oktober fest?"
     },
     {   "Visa": "Alemania",   
         "Pais": "Brasil",
@@ -18,7 +19,8 @@
         "Hijos": 0,
         "Cupos": 1000,
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Seguro medico"
+        "Requisitos": "Seguro medico",
+        "Descripcion": "Soñaste con el Oktober fest?"
     },
     {   "Visa": "Alemania",
         "Pais": "Uruguay",
@@ -28,7 +30,8 @@
         "Hijos": 0,
         "Cupos": "Ilimitados",
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Seguro medico"
+        "Requisitos": "Seguro medico",
+        "Descripcion": "Soñaste con el Oktober fest?"
     },
     {   "Visa": "Alemania",
         "Pais": "Chile",
@@ -38,7 +41,8 @@
         "Hijos": 0,
         "Cupos": "Ilimitados",
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Seguro medico"
+        "Requisitos": "Seguro medico",
+        "Descripcion": "Soñaste con el Oktober fest?"
     }
     
     ]

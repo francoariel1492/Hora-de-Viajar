@@ -7,7 +7,8 @@
         "Hijos": 0,
         "Cupos": 400,
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Seguro medico"
+        "Requisitos": "Seguro medico",
+        "Descripcion": "Viaja y trabaja en la tierra de San Patricio!"
     },
     {   "Visa": "Irlanda",
         "Pais": "Chile",
@@ -17,7 +18,8 @@
         "Hijos": 0,
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
-        "Requisitos": "Estudios de la tuberculosis"
+        "Requisitos": "Estudios de la tuberculosis",
+        "Descripcion": "Viaja y trabaja en la tierra de San Patricio!"
     }
     
     ]

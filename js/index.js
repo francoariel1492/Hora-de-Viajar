@@ -10,6 +10,7 @@ const edad = document.querySelector("#edad")
 const nacionalidad = document.querySelector("#nacionalidad")
 let btnInicio = document.querySelector("#btnInicio")
 
+
 //------Paises del dom
 const whvDom = document.querySelector("#whvDom")
 
@@ -25,6 +26,7 @@ btnInicio.addEventListener("click", fetchDataCan)
 btnInicio.addEventListener("click", fetchDataHol)
 btnInicio.addEventListener("click", fetchDataIrl)
 
+
 function deleteHTML(){
     whvDom.innerHTML = "";
 }
@@ -37,7 +39,6 @@ function checkUsuario(){
 
 
 function verificarRequisitos(checkVisa){
-    
     checkUsuario()
     if(checkVisa.Pais == user.nacionalidad && user.edad >= checkVisa.edadMin && user.edad <= checkVisa.edadMax){
         mostrarEnDom(checkVisa)
@@ -47,18 +48,44 @@ function verificarRequisitos(checkVisa){
 }
 
 function mostrarEnDom(checkVisa){
-    whvDom.innerHTML += `<div class="col-2">
-                        <div class="card">
-                        <img src="css/flags/${checkVisa.Visa}.png" class="card-img-top" alt="${checkVisa.Visa}">
-                        <div class="card-body">
-                        <h5 class="card-title">${checkVisa.Visa}</h5>
-                        <p class="card-text">Cupos - ${checkVisa.Cupos}</p>
-                        <p class="card-text">Edad: ${checkVisa.edadMin}-${checkVisa.edadMax}</p>
-                        <p class="card-text">Precio - ${checkVisa.Precio}</p>
-                        <p class="card-text">Requisitos - ${checkVisa.Requisitos}</p>
-                        </div>
-                        </div>
-                        </div>`
+        whvDom.innerHTML += `<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div 
+                            class="card text-white card-has-bg click-col"
+                            style="background-image: url('../css/cardimages/${checkVisa.Visa}.jpg');">
+                            <img
+                                class="card-img d-none"
+                                src="../css/cardimages/${checkVisa.Visa}.jpg"
+                                alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+                            />
+                            <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                            <small class="card-meta mb-2">Listo para partir?</small>
+                            <h4 class="card-title mt-0">
+                            <a class="text-white" herf="#"
+                            >${checkVisa.Descripcion}</a
+                            >
+                            </h4>
+                            <small
+                            ><i class="far fa-clock"></i> October 15, 2020</small
+                            >
+                            </div>
+                            <div class="card-footer">
+                            <div class="media">
+                            <img
+                            class="mr-3 rounded-circle"
+                            src="../css/flags/${checkVisa.Visa}.png"
+                            alt="Generic placeholder image"
+                            style="max-width: 50px"
+                            />
+                            <div class="media-body">
+                            <h6 class="my-0 text-white d-block">${checkVisa.Visa}</h6>
+                            <small>Working Holiday Visa</small>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>`
 }
 
 
