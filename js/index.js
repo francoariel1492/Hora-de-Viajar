@@ -2,9 +2,6 @@ import { usuario } from "./classes.js"
 
 let whv = [];
 
-
-
-
 const nombre = document.querySelector("#nombre")
 const edad = document.querySelector("#edad")
 const nacionalidad = document.querySelector("#nacionalidad")
@@ -51,11 +48,11 @@ function mostrarEnDom(checkVisa){
         whvDom.innerHTML += `<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                             <div 
                             class="card text-white card-has-bg click-col"
-                            style="background-image: url('../css/cardimages/${checkVisa.Visa}.jpg');">
+                            style="background-image: url('css/cardimages/${checkVisa.Visa}.jpg');">
                             <img
                                 class="card-img d-none"
-                                src="../css/cardimages/${checkVisa.Visa}.jpg"
-                                alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+                                src="css/cardimages/${checkVisa.Visa}.jpg"
+                                alt="countryImage"
                             />
                             <div class="card-img-overlay d-flex flex-column">
                             <div class="card-body">
@@ -73,7 +70,7 @@ function mostrarEnDom(checkVisa){
                             <div class="media">
                             <img
                             class="mr-3 rounded-circle"
-                            src="../css/flags/${checkVisa.Visa}.png"
+                            src="css/flags/${checkVisa.Visa}.png"
                             alt="Generic placeholder image"
                             style="max-width: 50px"
                             />
