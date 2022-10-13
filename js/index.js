@@ -63,38 +63,38 @@ function mostrarEnDom(checkVisa){
 
 
 async function fetchDataNz(){
-    const response = await fetch('../json/dataWhvNz.json')
+    const response = await fetch('./json/dataWhvNz.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 
 async function fetchDataAus(){
-    const response = await fetch('../json/dataWhvAus.json')
+    const response = await fetch('./json/dataWhvAus.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 async function fetchDataCan(){
-    const response = await fetch('../json/dataWhvCan.json')
+    const response = await fetch('./json/dataWhvCan.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 async function fetchDataAle(){
-    const response = await fetch('../json/dataWhvGer.json')
+    const response = await fetch('./json/dataWhvGer.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 async function fetchDataHol(){
-    const response = await fetch('../json/dataWhvNet.json')
+    const response = await fetch('./json/dataWhvNet.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 async function fetchDataIrl(){
-    const response = await fetch('../json/dataWhvIrl.json')
+    const response = await fetch('./json/dataWhvIrl.json')
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
