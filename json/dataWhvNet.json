@@ -1,0 +1,24 @@
+[
+    {   "Visa": "Holanda",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 69,
+        "Hijos": 0,
+        "Cupos": 100,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro"
+    },
+    {   "Visa": "Holanda",
+        "Pais": "Uruguay",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 69,
+        "Hijos": 0,
+        "Cupos": 100,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    }
+    
+    ]
+    

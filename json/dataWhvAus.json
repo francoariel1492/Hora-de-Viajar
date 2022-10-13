@@ -1,0 +1,68 @@
+[
+{
+    "Visa": "Australia",
+    "Pais": "Argentina",
+    "edadMin": 18,
+    "edadMax": 30,
+    "Precio": 495,
+    "Hijos": 0,
+    "Cupos": 4420,
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+},
+{   
+    "Visa": "Australia",
+    "Pais": "Brasil",
+    "edadMin": 18,
+    "edadMax": 30,
+    "Precio": 600,
+    "Hijos": 0,
+    "Cupos": 500,
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+},
+{
+    "Visa": "Australia",
+    "Pais": "Uruguay",
+    "edadMin": 18,
+    "edadMax": 30,
+    "Precio": 495,
+    "Hijos": 0,
+    "Cupos": 260,
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+},
+{
+    "Visa": "Australia",
+    "Pais": "España",
+    "edadMin": 18,
+    "edadMax": 30,
+    "Precio": 495,
+    "Hijos": 0,
+    "Cupos": 4420,
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+},
+{
+    "Visa": "Australia",
+    "Pais": "Italia",
+    "edadMin": 18,
+    "edadMax": 35,
+    "Precio": 495,
+    "Hijos": 0,
+    "Cupos": "",
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+},
+{
+    "Visa": "Australia",
+    "Pais": "Chile",
+    "edadMin": 18,
+    "edadMax": 30,
+    "Precio": 495,
+    "Hijos": 0,
+    "Cupos": 4420,
+    "Motivo de viaje": "Vacaciones",
+    "Requisitos": "Seguro medico"
+}
+]

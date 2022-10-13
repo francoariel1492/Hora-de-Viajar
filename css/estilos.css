@@ -1,0 +1,16 @@
+body{
+    background: #00ADB5;
+    font-family: 'Raleway', sans-serif;
+}
+
+#carouselExampleCaptions, #carouselExampleFade, #carouselExampleControls {
+    margin-top: 10px;}
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item img {
+    height: 500px;
+}

@@ -1,0 +1,24 @@
+[
+    {   "Visa": "Irlanda",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 37,
+        "Precio": 150,
+        "Hijos": 0,
+        "Cupos": 400,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {   "Visa": "Irlanda",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 455,
+        "Hijos": 0,
+        "Cupos": 200,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Estudios de la tuberculosis"
+    }
+    
+    ]
+    

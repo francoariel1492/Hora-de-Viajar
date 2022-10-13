@@ -1,0 +1,36 @@
+[
+    {
+        "Visa": "Canada",
+        "Pais": "España",
+        "edadMin": 18,
+        "edadMax": 35,
+        "Precio": 256,
+        "Hijos": 0,
+        "Cupos": 800,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {
+        "Visa": "Canada",
+        "Pais": "Italia",
+        "edadMin": 18,
+        "edadMax": 35,
+        "Precio": 455,
+        "Hijos": 0,
+        "Cupos": "",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {
+        "Visa": "Canada",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 35,
+        "Precio": 256,
+        "Hijos": 0,
+        "Cupos": 925,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    }    
+    ]
+    

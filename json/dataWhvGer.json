@@ -1,0 +1,45 @@
+[
+    {
+        "Visa": "Alemania",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 75,
+        "Hijos": 0,
+        "Cupos": "Ilimitados",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {   "Visa": "Alemania",   
+        "Pais": "Brasil",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 75,
+        "Hijos": 0,
+        "Cupos": 1000,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {   "Visa": "Alemania",
+        "Pais": "Uruguay",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 75,
+        "Hijos": 0,
+        "Cupos": "Ilimitados",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    },
+    {   "Visa": "Alemania",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 75,
+        "Hijos": 0,
+        "Cupos": "Ilimitados",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico"
+    }
+    
+    ]
+    
