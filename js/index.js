@@ -14,6 +14,8 @@ const whvDom = document.querySelector("#whvDom")
 
 let user
 
+const deleteHTML = () => whvDom.innerHTML = ""
+const scroll = () => window.scrollBy(0, 500);
 
 btnInicio.addEventListener("click", deleteHTML)
 btnInicio.addEventListener("click", fetchDataNz)
@@ -24,9 +26,6 @@ btnInicio.addEventListener("click", fetchDataHol)
 btnInicio.addEventListener("click", fetchDataIrl)
 
 
-function deleteHTML(){
-    whvDom.innerHTML = "";
-}
 
 function checkUsuario(){
     nombre.value && edad.value && nacionalidad.value 
@@ -45,7 +44,10 @@ function verificarRequisitos(checkVisa){
 }
 
 function mostrarEnDom(checkVisa){
-        whvDom.innerHTML += `<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        whvDom.innerHTML += `<div
+                            data-aos="fade-up"
+                            data-aos-duration="3000" 
+                            class="col-sm-12 col-md-6 col-lg-4 mb-4">
                             <div 
                             class="card text-white card-has-bg click-col"
                             style="background-image: url('css/cardimages/${checkVisa.Visa}.jpg');">
@@ -83,7 +85,9 @@ function mostrarEnDom(checkVisa){
                             </div>
                             </div>
                             </div>`
+        scroll()
 }
+
 
 
 async function fetchDataNz(){
