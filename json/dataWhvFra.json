@@ -1,0 +1,74 @@
+[
+    {
+        "Visa": "Francia",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 35,
+        "Precio": "Gratis",
+        "Hijos": 0,
+        "Cupos": 900,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    },
+    {   
+        "Visa": "Francia",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 99,
+        "Hijos": 0,
+        "Cupos": 400,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    },
+    {
+        "Visa": "Francia",
+        "Pais": "Uruguay",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 99,
+        "Hijos": 0,
+        "Cupos": 300,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    },
+    {
+        "Visa": "Francia",
+        "Pais": "Peru",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 99,
+        "Hijos": 0,
+        "Cupos": "Ilimitados",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    },
+    {
+        "Visa": "Francia",
+        "Pais": "Ecuador",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "Gratis",
+        "Hijos": 0,
+        "Cupos": 300,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    },
+    {
+        "Visa": "Francia",
+        "Pais": "Mexico",
+        "edadMin": 18,
+        "edadMax": 29,
+        "Precio": 495,
+        "Hijos": 0,
+        "Cupos": 300,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
+        "Descripcion" : "La torre Eiffel y sus vinos"
+    }
+    ]

@@ -1,0 +1,27 @@
+[
+    {
+        "Visa": "Polonia",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 91,
+        "Hijos": 0,
+        "Cupos": 400,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Antecedentes penales, Seguro medico",
+        "Descripcion": "Polonia nos vemos pronto!"
+    },
+    {
+        "Visa": "Polonia",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 91,
+        "Hijos": 0,
+        "Cupos": 200,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Antecedentes penales, Seguro medico",
+        "Descripcion": "Polonia nos vemos pronto!"
+    }  
+]
+    

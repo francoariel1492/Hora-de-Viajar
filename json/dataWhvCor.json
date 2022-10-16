@@ -1,0 +1,26 @@
+[
+    {
+        "Visa": "Corea",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "Gratis",
+        "Hijos": 0,
+        "Cupos": 200,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, US$3000 de fondos, Antecedentes penales",
+        "Descripcion" : "Del otro lado del mundo nunca lo pensaste no?"
+    },
+    {   
+        "Visa": "Corea",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "Gratis",
+        "Hijos": 0,
+        "Cupos": 100,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, US$3000 de fondos, Antecedentes penales",
+        "Descripcion" : "Del otro lado del mundo nunca lo pensaste no?"
+    }
+    ]

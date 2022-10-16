@@ -1,0 +1,26 @@
+[
+    {
+        "Visa": "Japon",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "Gratis",
+        "Hijos": 0,
+        "Cupos": 400,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, US$4000 de fondos, Antecedentes penales",
+        "Descripcion" : "Tokyo, Sushi, DBZ y mucho mas!"
+    },
+    {   
+        "Visa": "Japon",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "Consultar consulado",
+        "Hijos": 0,
+        "Cupos": 200,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, US$4000 de fondos, Antecedentes penales",
+        "Descripcion" : "Tokyo, Sushi, DBZ y mucho mas!"
+    }
+]

@@ -23,6 +23,13 @@ btnInicio.addEventListener("click", fetchDataAus)
 btnInicio.addEventListener("click", fetchDataAle)
 btnInicio.addEventListener("click", fetchDataCan)
 btnInicio.addEventListener("click", fetchDataHol)
+btnInicio.addEventListener("click", fetchDataAustria)
+btnInicio.addEventListener("click", fetchDataCor)
+btnInicio.addEventListener("click", fetchDataFra)
+btnInicio.addEventListener("click", fetchDataJap)
+btnInicio.addEventListener("click", fetchDataNor)
+btnInicio.addEventListener("click", fetchDataPol)
+btnInicio.addEventListener("click", fetchDataPor)
 btnInicio.addEventListener("click", fetchDataIrl)
 
 
@@ -127,6 +134,49 @@ async function fetchDataIrl(){
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
+async function fetchDataAustria(){
+    const response = await fetch('./json/dataWhvAustria.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataCor(){
+    const response = await fetch('./json/dataWhvCor.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataFra(){
+    const response = await fetch('./json/dataWhvFra.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataJap(){
+    const response = await fetch('./json/dataWhvJap.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataNor(){
+    const response = await fetch('./json/dataWhvNor.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataPol(){
+    const response = await fetch('./json/dataWhvPol.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+async function fetchDataPor(){
+    const response = await fetch('./json/dataWhvPor.json')
+        .then(res => res.json())
+        .then(res => getData(res))
+        .catch(err => console.log("No entra en el programa"))
+}
+
 
 function getData(dato){
     whv = [];

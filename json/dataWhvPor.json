@@ -1,0 +1,14 @@
+[
+    {
+        "Visa": "Portugal",
+        "Pais": "Chile",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": "CLP 70.200",
+        "Hijos": 0,
+        "Cupos": "Ilimitados",
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Antecedentes penales, Seguro medico",
+        "Descripcion": "Lisboa te espera"
+    }  
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "Visa": "Noruega",
+        "Pais": "Argentina",
+        "edadMin": 18,
+        "edadMax": 30,
+        "Precio": 6300,
+        "Hijos": 0,
+        "Cupos": 300,
+        "Motivo de viaje": "Vacaciones",
+        "Requisitos": "Seguro medico, US$3099 de fondos",
+        "Descripcion" : "Disfruta de la cultura Vikinga por una temporada"
+    }
+]
