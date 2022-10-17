@@ -1,6 +1,10 @@
 import { usuario } from "./classes.js"
 
+//-----------------Lista vacias de las Working Holiday Visa
+
 let whv = [];
+
+//-----------------Relacion con el Dom
 
 const nombre = document.querySelector("#nombre")
 const edad = document.querySelector("#edad")
@@ -8,31 +12,43 @@ const nacionalidad = document.querySelector("#nacionalidad")
 let btnInicio = document.querySelector("#btnInicio")
 
 
-//------Paises del dom
+//-----------------Paises del dom
+
 const whvDom = document.querySelector("#whvDom")
 
+//-----------------Variable Global
 
 let user
 
-const deleteHTML = () => whvDom.innerHTML = ""
+//-----------------Array de URLS Json
+
+const arrayJson = [
+    './json/dataWhvNz.json',
+    './json/dataWhvAus.json',
+    './json/dataWhvCan.json',
+    './json/dataWhvGer.json',
+    './json/dataWhvNet.json',
+    './json/dataWhvIrl.json',
+    './json/dataWhvAustria.json',
+    './json/dataWhvCor.json',
+    './json/dataWhvFra.json',
+    './json/dataWhvJap.json',
+    './json/dataWhvNor.json',
+    './json/dataWhvPol.json',
+    './json/dataWhvPor.json'
+]
+
+//-----------------Funciones
+
+//-----------------Se limpia el html cada vez que se toca el boton
+
+const deleteHTML = () => whvDom.innerHTML = "";
+
+//-----------------Scroll automatico despues de que se toca el boton
+
 const scroll = () => window.scrollBy(0, 500);
 
-btnInicio.addEventListener("click", deleteHTML)
-btnInicio.addEventListener("click", fetchDataNz)
-btnInicio.addEventListener("click", fetchDataAus)
-btnInicio.addEventListener("click", fetchDataAle)
-btnInicio.addEventListener("click", fetchDataCan)
-btnInicio.addEventListener("click", fetchDataHol)
-btnInicio.addEventListener("click", fetchDataAustria)
-btnInicio.addEventListener("click", fetchDataCor)
-btnInicio.addEventListener("click", fetchDataFra)
-btnInicio.addEventListener("click", fetchDataJap)
-btnInicio.addEventListener("click", fetchDataNor)
-btnInicio.addEventListener("click", fetchDataPol)
-btnInicio.addEventListener("click", fetchDataPor)
-btnInicio.addEventListener("click", fetchDataIrl)
-
-
+//-----------------Se chequean los inputs y se crea un user
 
 function checkUsuario(){
     nombre.value && edad.value && nacionalidad.value 
@@ -40,6 +56,8 @@ function checkUsuario(){
     : console.log("algo salio mal")
 }
 
+//-----------------Se comparan los datos del user con los de las check visa y se muestra el resultado
+//----------------- en el dom
 
 function verificarRequisitos(checkVisa){
     checkUsuario()
@@ -49,6 +67,8 @@ function verificarRequisitos(checkVisa){
         console.log("No entras en los requisitos")
     }
 }
+
+//-----------------Se muestra en el dom y hace lanza el scroll
 
 function mostrarEnDom(checkVisa){
         whvDom.innerHTML += `<div
@@ -95,89 +115,29 @@ function mostrarEnDom(checkVisa){
         scroll()
 }
 
+//-----------------Se limpia el Dom y se loopea el arrayJson y la fetchdata y viajan cada uno de sus
+//-----------------elementos por parametros
 
-
-async function fetchDataNz(){
-    const response = await fetch('./json/dataWhvNz.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
+function urlJson(){
+    deleteHTML()
+    for (let i = 0; i < arrayJson.length; i++) {
+        let elemento = arrayJson[i]
+        fetchData(elemento)
+    }
 }
 
-async function fetchDataAus(){
-    const response = await fetch('./json/dataWhvAus.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataCan(){
-    const response = await fetch('./json/dataWhvCan.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataAle(){
-    const response = await fetch('./json/dataWhvGer.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataHol(){
-    const response = await fetch('./json/dataWhvNet.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataIrl(){
-    const response = await fetch('./json/dataWhvIrl.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataAustria(){
-    const response = await fetch('./json/dataWhvAustria.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataCor(){
-    const response = await fetch('./json/dataWhvCor.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataFra(){
-    const response = await fetch('./json/dataWhvFra.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataJap(){
-    const response = await fetch('./json/dataWhvJap.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataNor(){
-    const response = await fetch('./json/dataWhvNor.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataPol(){
-    const response = await fetch('./json/dataWhvPol.json')
-        .then(res => res.json())
-        .then(res => getData(res))
-        .catch(err => console.log("No entra en el programa"))
-}
-async function fetchDataPor(){
-    const response = await fetch('./json/dataWhvPor.json')
+//---------------Se fetchean las respectivas URLS
+
+async function fetchData(URL){
+    const response = await fetch(URL)
         .then(res => res.json())
         .then(res => getData(res))
         .catch(err => console.log("No entra en el programa"))
 }
 
-
+//---------------Se toma la data del fetch por parametros en la funcion anterior y se hace un for
+//------------ que pushea los datos de esas respectivas visas, despues se declara la variable checkvisa
+//----------utilizada en verificar requisitos via parametro
 function getData(dato){
     whv = [];
     const datos = dato
@@ -190,5 +150,6 @@ function getData(dato){
 
 }
 
+//-----------Boton que lanaa la urlJson function
 
-
+btnInicio.addEventListener("click", urlJson)
