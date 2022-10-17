@@ -92,7 +92,6 @@ function mostrarEnDom(checkVisa){
                             >
                             </h4>
                             <small
-                            ><i class="far fa-clock"></i> October 15, 2020</small
                             >
                             </div>
                             <div class="card-footer">
@@ -138,6 +137,7 @@ async function fetchData(URL){
 //---------------Se toma la data del fetch por parametros en la funcion anterior y se hace un for
 //------------ que pushea los datos de esas respectivas visas, despues se declara la variable checkvisa
 //----------utilizada en verificar requisitos via parametro
+
 function getData(dato){
     whv = [];
     const datos = dato
@@ -153,3 +153,4 @@ function getData(dato){
 //-----------Boton que lanaa la urlJson function
 
 btnInicio.addEventListener("click", urlJson)
+
