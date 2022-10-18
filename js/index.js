@@ -60,9 +60,10 @@ function checkUsuario(){
 //----------------- en el dom
 
 function verificarRequisitos(checkVisa){
+    const {Pais,edadMin,edadMax,Visa,Descripcion} = checkVisa
     checkUsuario()
-    if(checkVisa.Pais == user.nacionalidad && user.edad >= checkVisa.edadMin && user.edad <= checkVisa.edadMax){
-        mostrarEnDom(checkVisa)
+    if(Pais == user.nacionalidad && user.edad >= edadMin && user.edad <= edadMax){
+        mostrarEnDom(Visa,Descripcion)
     }else{
         console.log("No entras en los requisitos")
     }
@@ -70,17 +71,17 @@ function verificarRequisitos(checkVisa){
 
 //-----------------Se muestra en el dom y hace lanza el scroll
 
-function mostrarEnDom(checkVisa){
+function mostrarEnDom(Visa,Descripcion){
         whvDom.innerHTML += `<div
                             data-aos="fade-up"
                             data-aos-duration="3000" 
                             class="col-sm-12 col-md-6 col-lg-4 mb-4">
                             <div 
                             class="card text-white card-has-bg click-col"
-                            style="background-image: url('css/cardimages/${checkVisa.Visa}.jpg');">
+                            style="background-image: url('css/cardimages/${Visa}.jpg');">
                             <img
                                 class="card-img d-none"
-                                src="css/cardimages/${checkVisa.Visa}.jpg"
+                                src="css/cardimages/${Visa}.jpg"
                                 alt="countryImage"
                             />
                             <div class="card-img-overlay d-flex flex-column">
@@ -88,7 +89,7 @@ function mostrarEnDom(checkVisa){
                             <small class="card-meta mb-2">Listo para partir?</small>
                             <h4 class="card-title mt-0">
                             <a class="text-white" herf="#"
-                            >${checkVisa.Descripcion}</a
+                            >${Descripcion}</a
                             >
                             </h4>
                             <small
@@ -98,12 +99,12 @@ function mostrarEnDom(checkVisa){
                             <div class="media">
                             <img
                             class="mr-3 rounded-circle"
-                            src="css/flags/${checkVisa.Visa}.png"
+                            src="css/flags/${Visa}.png"
                             alt="Generic placeholder image"
                             style="max-width: 50px"
                             />
                             <div class="media-body">
-                            <h6 class="my-0 text-white d-block">${checkVisa.Visa}</h6>
+                            <h6 class="my-0 text-white d-block">${Visa}</h6>
                             <small>Working Holiday Visa</small>
                             </div>
                             </div>
@@ -145,7 +146,6 @@ function getData(dato){
         whv.push(datos[i])
     }
     let checkVisa = whv.find((el) => nacionalidad.value == el.Pais)
-
     verificarRequisitos(checkVisa)
 
 }
