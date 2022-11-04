@@ -25,9 +25,6 @@
 body {
   background: #00adb5;
   font-family: "Raleway", sans-serif;
-  // background: -webkit-radial-gradient(top right, #23ec55, #2d51c1);
-  // background: -moz-radial-gradient(top right, #23ec55, #2d51c1);
-  // background: radial-gradient(to bottom left, #23ec55, #2d51c1);
 }
 .wrapper {
   margin: 10vh;
@@ -62,12 +59,6 @@ body {
       right: 0;
       bottom: 0;
       left: 0;
-      // background: inherit;
-      // -webkit-filter: grayscale(1);
-      // -moz-filter: grayscale(100%);
-      // -ms-filter: grayscale(100%);
-      // -o-filter: grayscale(100%);
-      // filter: grayscale(100%);
     }
 
     &:hover {

@@ -9,7 +9,7 @@
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €1500 de fondos, Antecedentes penales",
-        "Descripcion" : "Descubri Austria y sus paisajes"
+        "DescripcionCard" : "Descubri Austria y sus paisajes"
     },
     {   
         "Visa": "Austria",
@@ -21,6 +21,6 @@
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €1500 de fondos, Antecedentes penales",
-        "Descripcion" : "Descubri Austria y sus paisajes"
+        "DescripcionCard" : "Descubri Austria y sus paisajes"
     }
 ]

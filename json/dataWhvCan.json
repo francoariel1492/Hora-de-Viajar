@@ -9,7 +9,7 @@
         "Cupos": 800,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico",
-        "Descripcion": "Preparate para sentir la fuerza la naturaleza"
+        "DescripcionCard": "Preparate para sentir la fuerza la naturaleza"
     },
     {
         "Visa": "Canada",
@@ -21,7 +21,7 @@
         "Cupos": "",
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico",
-        "Descripcion": "Preparate para sentir la fuerza la naturaleza"
+        "DescripcionCard": "Preparate para sentir la fuerza la naturaleza"
     },
     {
         "Visa": "Canada",
@@ -33,7 +33,7 @@
         "Cupos": 925,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico",
-        "Descripcion": "Preparate para sentir la fuerza la naturaleza"
+        "DescripcionCard": "Preparate para sentir la fuerza la naturaleza"
     }    
 ]
     

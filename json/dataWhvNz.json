@@ -1,14 +1,22 @@
 [
-{   "Visa": "Nueva Zelanda",
+{   "Visa": "NuevaZelanda",
     "Pais": "Argentina",
     "edadMin": 18,
     "edadMax": 35,
-    "Precio": 455,
+    "Precio": "NZD 455",
     "Hijos": 0,
     "Cupos": 1000,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "RequisitosTitulos": ["Pasaporte","Edad","Familia","Motivo","Una vez en la vida","Estudios"],
+    "Requisitos": ["Primero y principal, vas a necesitar el pasaporte del pais bajo el cual estas aplicando, con una validez de al menos tres meses despues de la salida de Nueva Zelanda",
+                    "Tener entre 18 y 35 años al momento de aplicar",
+                    "No sera posible viajar con hijos o familiares a cargo, la visa es personal.",
+                    "El motivo principal del viaje tiene que ser vacacionar en Nueva Zelanda, y opcionalmente trabajar y estudiar(esto enrealidad no importa mucho, podran trabajar los 12 meses de visa si lo quisieran).",
+                    "No haber obtenido la Working Holida Nueva Zelanda en el pasado con ningun otro pasaporte, la visa es una unica vez en la vida por persona.",
+                    "Presentar los estudios de Rayos X. Es un requisito solo para peruanos y para quienes estuvieron viviendo o visitaron por más de 3 meses en los últimos 5 años algún país que no figura en la lista de países sin riesgo."],
+
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Brasil",
@@ -19,7 +27,8 @@
     "Cupos": 300,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Uruguay",
@@ -30,7 +39,8 @@
     "Cupos": 200,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "España",
@@ -41,7 +51,8 @@
     "Cupos": 200,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Italia",
@@ -52,7 +63,8 @@
     "Cupos": "",
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 },
 {   "Visa": "Nueva Zelanda",
     "Pais": "Chile",
@@ -63,7 +75,8 @@
     "Cupos": 940,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker"
+    "DescripcionCard": "Estas a punto de viajar a la famosa Tierra Media, el sueño del backpacker",
+    "DescripcionInfo": "Nueva Zelanda, tambien llamada Aotearoa en lengua Maori, conocida como el sueño del backpacker para muchos viajeros, es un pais formado por un archipielago de islas que se encuentran en el oceano pacifico. Se caracteriza por su estilo de vida 'Easy Going', la presencia de la cultura Maori, por su increible belleza natural debido a la cantidad de paisajes diferentes que se pueden encontrar a lo largo de sus dos islas principales, y el resto de las que conforman el pais. Tambien reyna la cultura 'Van-Life' y es un pais que esta completamente preparado para este estilo de vida, ofreciendo 'Free-Camps'(Camping gratis) completamente regulados y accesibles de manera gratuita para las personas que posean un vehiculo 'Self-Contained'(Autosuficiente). Tambien es un pais lleno de posibilidades a nivel lavorativo ya que tiene una historia muy joven y continua en desarrollo."
 }
 
 ]

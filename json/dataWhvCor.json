@@ -9,7 +9,7 @@
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, US$3000 de fondos, Antecedentes penales",
-        "Descripcion" : "Del otro lado del mundo nunca lo pensaste no?"
+        "DescripcionCard" : "Del otro lado del mundo nunca lo pensaste no?"
     },
     {   
         "Visa": "Corea",
@@ -21,6 +21,6 @@
         "Cupos": 100,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, US$3000 de fondos, Antecedentes penales",
-        "Descripcion" : "Del otro lado del mundo nunca lo pensaste no?"
+        "DescripcionCard" : "Del otro lado del mundo nunca lo pensaste no?"
     }
     ]

@@ -9,7 +9,7 @@
         "Cupos": 400,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, US$4000 de fondos, Antecedentes penales",
-        "Descripcion" : "Tokyo, Sushi, DBZ y mucho mas!"
+        "DescripcionCard" : "Tokyo, Sushi, DBZ y mucho mas!"
     },
     {   
         "Visa": "Japon",
@@ -21,6 +21,6 @@
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, US$4000 de fondos, Antecedentes penales",
-        "Descripcion" : "Tokyo, Sushi, DBZ y mucho mas!"
+        "DescripcionCard" : "Tokyo, Sushi, DBZ y mucho mas!"
     }
 ]

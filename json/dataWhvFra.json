@@ -9,7 +9,7 @@
         "Cupos": 900,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     },
     {   
         "Visa": "Francia",
@@ -21,7 +21,7 @@
         "Cupos": 400,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     },
     {
         "Visa": "Francia",
@@ -33,7 +33,7 @@
         "Cupos": 300,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     },
     {
         "Visa": "Francia",
@@ -45,7 +45,7 @@
         "Cupos": "Ilimitados",
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     },
     {
         "Visa": "Francia",
@@ -57,7 +57,7 @@
         "Cupos": 300,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     },
     {
         "Visa": "Francia",
@@ -69,6 +69,6 @@
         "Cupos": 300,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico, €2500 de fondos, Antecedentes penales",
-        "Descripcion" : "La torre Eiffel y sus vinos"
+        "DescripcionCard" : "La torre Eiffel y sus vinos"
     }
     ]

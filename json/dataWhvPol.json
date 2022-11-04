@@ -9,7 +9,7 @@
         "Cupos": 400,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Antecedentes penales, Seguro medico",
-        "Descripcion": "Polonia nos vemos pronto!"
+        "DescripcionCard": "Polonia nos vemos pronto!"
     },
     {
         "Visa": "Polonia",
@@ -21,7 +21,7 @@
         "Cupos": 200,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Antecedentes penales, Seguro medico",
-        "Descripcion": "Polonia nos vemos pronto!"
+        "DescripcionCard": "Polonia nos vemos pronto!"
     }  
 ]
     

@@ -3,7 +3,8 @@ import { usuario } from "./classes.js"
 //-----------------Lista vacias de las Working Holiday Visa
 
 let whv = [];
-
+let visaAvailable = [];
+let btnHTML
 //-----------------Relacion con el Dom
 
 const nombre = document.querySelector("#nombre")
@@ -60,28 +61,42 @@ function checkUsuario(){
 //----------------- en el dom
 
 function verificarRequisitos(checkVisa){
-    const {Pais,edadMin,edadMax,Visa,Descripcion} = checkVisa
+    const {Pais,edadMin,edadMax} = checkVisa
     checkUsuario()
     if(Pais == user.nacionalidad && user.edad >= edadMin && user.edad <= edadMax){
-        mostrarEnDom(Visa,Descripcion)
+        mostrarEnDom(checkVisa)
     }else{
         console.log("No entras en los requisitos")
     }
 }
 
+
+
+
+
+function crearInfoWhv(event){
+    let visaSelected = visaAvailable.find((el) => event.currentTarget.id == el.Visa)
+    console.log(visaSelected)
+    localStorage.setItem("Visa",JSON.stringify(visaSelected))
+    window.location.href = "../pages/whvinfo.html";
+
+}
+
 //-----------------Se muestra en el dom y hace lanza el scroll
 
-function mostrarEnDom(Visa,Descripcion){
+function mostrarEnDom(checkVisa){
+    visaAvailable.push(checkVisa)
         whvDom.innerHTML += `<div
+                            id=${checkVisa.Visa}
                             data-aos="fade-up"
                             data-aos-duration="3000" 
                             class="col-sm-12 col-md-6 col-lg-4 mb-4">
                             <div 
                             class="card text-white card-has-bg click-col"
-                            style="background-image: url('css/cardimages/${Visa}.jpg');">
+                            style="background-image: url('css/cardimages/${checkVisa.Visa}.jpg');">
                             <img
                                 class="card-img d-none"
-                                src="css/cardimages/${Visa}.jpg"
+                                src="css/cardimages/${checkVisa.Visa}.jpg"
                                 alt="countryImage"
                             />
                             <div class="card-img-overlay d-flex flex-column">
@@ -89,7 +104,7 @@ function mostrarEnDom(Visa,Descripcion){
                             <small class="card-meta mb-2">Listo para partir?</small>
                             <h4 class="card-title mt-0">
                             <a class="text-white" herf="#"
-                            >${Descripcion}</a
+                            >${checkVisa.DescripcionCard}</a
                             >
                             </h4>
                             <small
@@ -99,20 +114,30 @@ function mostrarEnDom(Visa,Descripcion){
                             <div class="media">
                             <img
                             class="mr-3 rounded-circle"
-                            src="css/flags/${Visa}.png"
+                            src="css/flags/${checkVisa.Visa}.png"
                             alt="Generic placeholder image"
                             style="max-width: 50px"
                             />
                             <div class="media-body">
-                            <h6 class="my-0 text-white d-block">${Visa}</h6>
+                            <h6 class="my-0 text-white d-block">${checkVisa.Visa}</h6>
                             <small>Working Holiday Visa</small>
+                            <button type="button" id="${checkVisa.Visa}" class="boton p-1 m-1 btn btn-primary">
+                            Toda la info aca!
+                            </button>
                             </div>
                             </div>
                             </div>
                             </div>
                             </div>
-                            </div>`
-        scroll()
+                            </div>`;
+        scroll();
+        // let btnID = document.querySelector(`#${checkVisa.Visa}`)
+        btnHTML = document.querySelectorAll(".boton");
+        btnHTML.forEach(btn =>{
+            btn.addEventListener("click",crearInfoWhv);
+        })
+
+
 }
 
 //-----------------Se limpia el Dom y se loopea el arrayJson y la fetchdata y viajan cada uno de sus

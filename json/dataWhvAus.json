@@ -9,7 +9,7 @@
     "Cupos": 4420,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 },
 {   
     "Visa": "Australia",
@@ -21,7 +21,7 @@
     "Cupos": 500,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 },
 {
     "Visa": "Australia",
@@ -33,7 +33,7 @@
     "Cupos": 260,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 },
 {
     "Visa": "Australia",
@@ -45,7 +45,7 @@
     "Cupos": 4420,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 },
 {
     "Visa": "Australia",
@@ -57,7 +57,7 @@
     "Cupos": "",
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 },
 {
     "Visa": "Australia",
@@ -69,6 +69,6 @@
     "Cupos": 4420,
     "Motivo de viaje": "Vacaciones",
     "Requisitos": "Seguro medico",
-    "Descripcion" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
 }
 ]

@@ -8,7 +8,7 @@
         "Cupos": 100,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro",
-        "Descripcion": "Disfruta de la belleza de Holanda y su sociedad multiculutural"
+        "DescripcionCard": "Disfruta de la belleza de Holanda y su sociedad multiculutural"
     },
     {   "Visa": "Holanda",
         "Pais": "Uruguay",
@@ -19,7 +19,7 @@
         "Cupos": 100,
         "Motivo de viaje": "Vacaciones",
         "Requisitos": "Seguro medico",
-        "Descripcion": "Disfruta de la belleza de Holanda y su sociedad multiculutural"
+        "DescripcionCard": "Disfruta de la belleza de Holanda y su sociedad multiculutural"
     }
     
     ]
