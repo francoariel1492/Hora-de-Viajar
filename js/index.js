@@ -77,7 +77,7 @@ function verificarRequisitos(checkVisa){
 function crearInfoWhv(event){
     let visaSelected = visaAvailable.find((el) => event.currentTarget.id == el.Visa)
     localStorage.setItem("Visa",JSON.stringify(visaSelected))
-    window.location.href = "../pages/whvinfo.html";
+    window.location.href = "pages/whvinfo.html";
 
 }
 

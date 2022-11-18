@@ -8,9 +8,6 @@ const tituloInfo = document.querySelector("#tituloInfo")
 const requisitos = document.querySelector("#requisitos")
 
 
-// const anadirImg = Array.from(document.querySelectorAll("img"))
-
-
 añadirFotos(Requisitos,DescripcionInfo,Visa)
 
 
