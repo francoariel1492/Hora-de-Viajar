@@ -7,7 +7,6 @@
     "Hijos": 0,
     "Cupos": 1000,
     "Motivo de viaje": "Vacaciones",
-    "RequisitosTitulos": ["Pasaporte","Edad","Familia","Motivo","Una vez en la vida","Estudios"],
     "Requisitos": ["Primero y principal, vas a necesitar el pasaporte del pais bajo el cual estas aplicando, con una validez de al menos tres meses despues de la salida de Nueva Zelanda",
                     "Tener entre 18 y 35 años al momento de aplicar",
                     "No sera posible viajar con hijos o familiares a cargo, la visa es personal.",

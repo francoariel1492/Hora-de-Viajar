@@ -8,8 +8,16 @@
     "Hijos": 0,
     "Cupos": 4420,
     "Motivo de viaje": "Vacaciones",
-    "Requisitos": "Seguro medico",
-    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades."
+    "Requisitos": ["Contar con pasaporte argentino.",
+                    "Encontrarse fuera de Australia al momento de presentar su solicitud de visa.",
+                    "Tener al menos 18 años y no haber cumplido los 31 años al momento de aplicar (pueden entrar a Australia con 31 años si ya tienen la visa).",
+                    "Poseer estudios terciarios, o haber completado exitosamente al menos dos años de estudios universitarios de grado",
+                    "Contar con fondos suficientes para la primera parte de su estadía en Australia (al menos AUD 5000 (USD 3,357) además del dinero para el pasaje de regreso.",
+                    "No haber ingresado previamente a Australia con una visa subclass 462 o 417 (se puede solicitar una extensión.",
+                    "No tener una visa denegada previamente.",
+                    "Tener y mantener un seguro de salud adecuado durante toda la estadía en el país, ya que no están cubiertos por el sistema de salud de Australia."],
+    "DescripcionCard" : "Un pais lleno de paisajes,fauna y oportunidades.",
+    "DescripcionInfo": "Australia es un territorio lleno de maravillas naturales y es considerada la isla mas grande del mundo. Situada en el hemisferio sur entre los océanos Índico y Pacífico, al sureste de Asia, Australia está rodeada de varios mares que se extienden como brazos de los dos grandes océanos antes mencionados: al noroeste se extiende el mar de Timor, al norte el mar de Arafura y el estrecho de Torres, al noreste el mar del Coral y al sureste el mar de Tasmania. La superficie australiana se extiende 4.000 kilómetros de este a oeste y 3.700 kilómetros de norte a sur. Volar desde Sídney, ubicada al sureste del país, hasta Perth, en el suroeste, toma 5 horas. La fauna Si hablamos de animales terrestres, en todo el territorio australiano habitan 378 especies de mamíferos, 828 de aves, 300 de lagartos, 140 de serpientes y 2 de cocodrilos. Por otro lado, la vida marina es especialmente rica, con 4000 especies de peces, 1700 de corales y 50 tipos de mamíferos. Es uno de los destinos destacados por los mochileros ya que es un gran pais para trabajar y conseguir una buena suma de dinero para continuar viajando."
 },
 {   
     "Visa": "Australia",

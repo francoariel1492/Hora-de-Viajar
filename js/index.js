@@ -1,3 +1,5 @@
+//-----------Importaciones
+
 import { usuario } from "./classes.js"
 
 //-----------------Lista vacias de las Working Holiday Visa
@@ -11,8 +13,6 @@ const nombre = document.querySelector("#nombre")
 const edad = document.querySelector("#edad")
 const nacionalidad = document.querySelector("#nacionalidad")
 let btnInicio = document.querySelector("#btnInicio")
-
-
 //-----------------Paises del dom
 
 const whvDom = document.querySelector("#whvDom")
@@ -76,7 +76,6 @@ function verificarRequisitos(checkVisa){
 
 function crearInfoWhv(event){
     let visaSelected = visaAvailable.find((el) => event.currentTarget.id == el.Visa)
-    console.log(visaSelected)
     localStorage.setItem("Visa",JSON.stringify(visaSelected))
     window.location.href = "../pages/whvinfo.html";
 
@@ -90,7 +89,7 @@ function mostrarEnDom(checkVisa){
                             id=${checkVisa.Visa}
                             data-aos="fade-up"
                             data-aos-duration="3000" 
-                            class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            class="boton col-sm-12 col-md-6 col-lg-4 mb-4">
                             <div 
                             class="card text-white card-has-bg click-col"
                             style="background-image: url('css/cardimages/${checkVisa.Visa}.jpg');">
@@ -121,9 +120,6 @@ function mostrarEnDom(checkVisa){
                             <div class="media-body">
                             <h6 class="my-0 text-white d-block">${checkVisa.Visa}</h6>
                             <small>Working Holiday Visa</small>
-                            <button type="button" id="${checkVisa.Visa}" class="boton p-1 m-1 btn btn-primary">
-                            Toda la info aca!
-                            </button>
                             </div>
                             </div>
                             </div>
