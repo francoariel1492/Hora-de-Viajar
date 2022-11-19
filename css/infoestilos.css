@@ -12,7 +12,7 @@ body {
 .section1 {
   background-color: black;
 }
-.section1 p {
+.section1 #map1 {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,6 +24,9 @@ body {
 }
 .section2 ul {
   list-style: none;
+}
+
+#map2 {
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;

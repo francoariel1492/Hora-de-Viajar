@@ -4,6 +4,28 @@
   margin-top: 10px;
 }
 
+.main{
+  background-image: url(/css/map1.png);
+  background-attachment:fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  p{
+    color: #EEEEEE;
+  }
+  form{
+    color: #EEEEEE;
+    #btnInicio{
+      background-color: #393E46;
+      color: #EEEEEE;
+      &:hover{
+        background-color: #EEEEEE;
+        color: #393E46;
+      }
+
+    }
+  }
+}
 
 .carousel-item img {
   object-fit: cover;
